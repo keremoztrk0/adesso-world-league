@@ -1,0 +1,51 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AdessoWorldLeague.WebAPI", "AdessoWorldLeague.WebAPI\AdessoWorldLeague.WebAPI.csproj", "{FA52A1F7-B639-4DA1-B0F4-548E369C2D02}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AdessoWorldLeague.Domain", "AdessoWorldLeague.Domain\AdessoWorldLeague.Domain.csproj", "{92E2D749-5AC2-4020-9EAE-0ECFC6DF1DEC}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AdessoWorldLeague.Application", "AdessoWorldLeague.Application\AdessoWorldLeague.Application.csproj", "{4C224D6C-4F13-4A15-A816-DA2B4049D758}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AdessoWorldLeague.Infrastructure", "AdessoWorldLeague.Infrastructure\AdessoWorldLeague.Infrastructure.csproj", "{62713446-13F9-4F7C-9009-64CA036C92E6}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{4DDA8A0B-A1DE-494B-B517-138813E0F5C9}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "test", "test", "{12F18554-6FFA-4024-95A4-2DE7970A2745}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AdessoWorldLeague.Domain.Test", "AdessoWorldLeague.Domain.Test\AdessoWorldLeague.Domain.Test.csproj", "{8C0F8E58-F499-4B29-A323-C77F7EF53897}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{FA52A1F7-B639-4DA1-B0F4-548E369C2D02}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FA52A1F7-B639-4DA1-B0F4-548E369C2D02}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FA52A1F7-B639-4DA1-B0F4-548E369C2D02}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FA52A1F7-B639-4DA1-B0F4-548E369C2D02}.Release|Any CPU.Build.0 = Release|Any CPU
+		{92E2D749-5AC2-4020-9EAE-0ECFC6DF1DEC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{92E2D749-5AC2-4020-9EAE-0ECFC6DF1DEC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{92E2D749-5AC2-4020-9EAE-0ECFC6DF1DEC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{92E2D749-5AC2-4020-9EAE-0ECFC6DF1DEC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4C224D6C-4F13-4A15-A816-DA2B4049D758}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4C224D6C-4F13-4A15-A816-DA2B4049D758}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4C224D6C-4F13-4A15-A816-DA2B4049D758}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4C224D6C-4F13-4A15-A816-DA2B4049D758}.Release|Any CPU.Build.0 = Release|Any CPU
+		{62713446-13F9-4F7C-9009-64CA036C92E6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{62713446-13F9-4F7C-9009-64CA036C92E6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{62713446-13F9-4F7C-9009-64CA036C92E6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{62713446-13F9-4F7C-9009-64CA036C92E6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8C0F8E58-F499-4B29-A323-C77F7EF53897}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8C0F8E58-F499-4B29-A323-C77F7EF53897}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8C0F8E58-F499-4B29-A323-C77F7EF53897}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8C0F8E58-F499-4B29-A323-C77F7EF53897}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{4C224D6C-4F13-4A15-A816-DA2B4049D758} = {4DDA8A0B-A1DE-494B-B517-138813E0F5C9}
+		{92E2D749-5AC2-4020-9EAE-0ECFC6DF1DEC} = {4DDA8A0B-A1DE-494B-B517-138813E0F5C9}
+		{62713446-13F9-4F7C-9009-64CA036C92E6} = {4DDA8A0B-A1DE-494B-B517-138813E0F5C9}
+		{FA52A1F7-B639-4DA1-B0F4-548E369C2D02} = {4DDA8A0B-A1DE-494B-B517-138813E0F5C9}
+		{8C0F8E58-F499-4B29-A323-C77F7EF53897} = {12F18554-6FFA-4024-95A4-2DE7970A2745}
+	EndGlobalSection
+EndGlobal
